@@ -43,7 +43,7 @@ Key components include:
      Simple Moving Averages (SMA)
           SMA 20
           SMA 50
-     Used to detect trend direction and crossover signals.
+          Used to detect trend direction and crossover signals.
 
      
 **Relative Strength Index (RSI)**
@@ -62,9 +62,13 @@ Key components include:
 
 
   Buy signal generated when:
+
+  
      SMA20 crosses above SMA50
      RSI < 30
      Logistic Regression predicts “Up”
+
+     
   Sell signal generated when:
      SMA20 crosses below SMA50
      RSI > 70
