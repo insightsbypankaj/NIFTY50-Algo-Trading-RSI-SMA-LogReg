@@ -4,13 +4,19 @@ RSI, SMA crossover, and Logistic Regression to generate buy/sell predictions and
 
 
 **Project Overview**
+
+
 The goal of this project is to apply data analytics and machine learning techniques to develop a rules-based trading strategy.
 Key components include:
+
+
         Fetching historical stock data using yfinance
         Feature engineering (RSI, SMA, returns, volatility)
         ML-based prediction using Logistic Regression
         Backtesting trading performance
         Automating buy/sell signals using Google Sheets
+
+        
 **Dataset**
        Source: Yahoo Finance (yfinance)
        Stocks used:
