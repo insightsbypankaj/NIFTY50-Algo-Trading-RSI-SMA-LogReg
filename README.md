@@ -12,29 +12,29 @@ Key components include:
 
       --Fetching historical stock data using yfinance
       --Feature engineering (RSI, SMA, returns, volatility)
-        ML-based prediction using Logistic Regression
-        Backtesting trading performance
-        Automating buy/sell signals using Google Sheets
+      --ML-based prediction using Logistic Regression
+      --Backtesting trading performance
+      --Automating buy/sell signals using Google Sheets
 
         
 **Dataset**
 
 
-       Source: Yahoo Finance (yfinance)
-       Stocks used:
-       NIFTY 50, INFY, TCS, RELIANCE
-       Date range: January 2024 – Present
-       Frequency: Daily OHLCV data
+      --Source: Yahoo Finance (yfinance)
+      --Stocks used:
+      --NIFTY 50, INFY, TCS, RELIANCE
+      --Date range: January 2024 – Present
+      --Frequency: Daily OHLCV data
 
 **Tech Stack**
 
 
-      Python
-      Pandas, NumPy
-      Matplotlib, Seaborn 
-      Scikit-learn
-      yfinance
-      Google Sheets API     
+      .Python
+      .Pandas, NumPy
+      .Matplotlib, Seaborn 
+      .Scikit-learn
+      .yfinance
+      .Google Sheets API     
 
       
 **Features Used**
