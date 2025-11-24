@@ -70,6 +70,7 @@ Key components include:
 
      
   Sell signal generated when:
+  
      SMA20 crosses below SMA50
      RSI > 70
      Logistic Regression predicts “Down”
@@ -79,6 +80,7 @@ Key components include:
 
 
 The model outputs:
+
      Win rate
      Accuracy
      Precision, Recall, F1-score
