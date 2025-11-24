@@ -18,6 +18,8 @@ Key components include:
 
         
 **Dataset**
+
+
        Source: Yahoo Finance (yfinance)
        Stocks used:
        NIFTY 50, INFY, TCS, RELIANCE
@@ -25,22 +27,40 @@ Key components include:
        Frequency: Daily OHLCV data
 
 **Tech Stack**
+
+
       Python
       Pandas, NumPy
       Matplotlib, Seaborn 
       Scikit-learn
       yfinance
-      Google Sheets API       
+      Google Sheets API     
+
+      
 **Features Used**
+
+
      Simple Moving Averages (SMA)
           SMA 20
           SMA 50
      Used to detect trend direction and crossover signals.
+
+     
 **Relative Strength Index (RSI)**
+
+
      Used to detect overbought/oversold zones.
+
+     
 **Logistic Regression Model**
+
+
      Predicts whether the next day price will go up or down.
+
+     
 **Strategy Logic**
+
+
   Buy signal generated when:
      SMA20 crosses above SMA50
      RSI < 30
@@ -49,7 +69,11 @@ Key components include:
      SMA20 crosses below SMA50
      RSI > 70
      Logistic Regression predicts “Down”
+
+     
 **Results**
+
+
 The model outputs:
      Win rate
      Accuracy
@@ -57,7 +81,11 @@ The model outputs:
      Profit/Loss
      Equity curve
      Confusion matrix
+
+     
 **Future Improvements**
+
+
      Add LSTM / Random Forest model
      Include more NIFTY50 stocks
      Deploy using Streamlit web app
