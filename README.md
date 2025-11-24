@@ -10,8 +10,8 @@ The goal of this project is to apply data analytics and machine learning techniq
 Key components include:
 
 
-        Fetching historical stock data using yfinance
-        Feature engineering (RSI, SMA, returns, volatility)
+      --Fetching historical stock data using yfinance
+      --Feature engineering (RSI, SMA, returns, volatility)
         ML-based prediction using Logistic Regression
         Backtesting trading performance
         Automating buy/sell signals using Google Sheets
