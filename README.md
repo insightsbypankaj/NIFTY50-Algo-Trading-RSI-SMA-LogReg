@@ -1,6 +1,8 @@
 **NIFTY50 Algo-Trading Model (RSI, SMA, Logistic Regression)**
 This project builds an automated trading strategy for selected NIFTY50 stocks using
 RSI, SMA crossover, and Logistic Regression to generate buy/sell predictions and evaluate trading performance.
+
+
 **Project Overview**
 The goal of this project is to apply data analytics and machine learning techniques to develop a rules-based trading strategy.
 Key components include:
